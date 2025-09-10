@@ -5,7 +5,7 @@ USERID=$(id -u)
 if [ $USERIF -ne0 ]
 
     then 
-     echo "erorr  :: pleaserun this is script without root access"
+     echo "ERROR:: Please run this script with root access"
      exit 1
  else 
   echo "running with root access"
