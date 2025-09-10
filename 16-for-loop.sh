@@ -11,7 +11,7 @@ LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME.log"
 PACKAGES=("mysql" "python" "nginx" "httpd")
 
 mkdir -p $LOGS_FOLDER
-echo "Script started executing at: $(date)" | tee -a $LOG_FILE
+   #echo "Script started executing at: $(date)" | tee -a $LOG_FILE
 
 if [ $USERID -ne 0 ]
 then
