@@ -1,7 +1,9 @@
 #!/bin/bash
 
 USERID=$(id -u)
+
 if [ $USERIF -ne 0 ]
+
     then 
      echo "erorr  :: pleaserun this is script without root access"
      exit 1
