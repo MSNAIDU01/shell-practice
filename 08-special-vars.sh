@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "variables passed to sript": $@
+echo "variables passed to sript: $@"
